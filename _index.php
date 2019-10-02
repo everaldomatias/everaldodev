@@ -134,6 +134,7 @@
         		/* font-size: 3.5vw; */
         	}
         }
+        
         /* Blog */
         .blog {
         	background-color: #f5f5f5;
@@ -185,9 +186,111 @@
         .blog .each-post figure {
         	margin: 1.5vw 2vw;
         }
+        
+        .emocao {
+        	display: none;
+        	background: #f6f6e9;
+        	color: #13334c;
+        	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        	font-size: 18px; /* Some tweener fallback that doesn't look awful */ 
+          	font-size: 2ch;
+        	height: 100vh;
+        	opacity: 0.75;
+        }
+        @media ( max-width: 599px ) {
+        	.emocao {
+        		opacity: 1;
+        		touch-action: auto !important;
+        	}
+        }
+        .blue {
+        	background-color: blue !important;
+        }
+        /**/
         * {
           box-sizing: border-box;
         }
+        
+        
+        .lds-spinner {
+          color: official;
+          display: inline-block;
+          position: relative;
+          width: 32px;
+          height: 32px;
+        }
+        .lds-spinner div {
+          transform-origin: 16px 16px;
+          animation: lds-spinner 1.2s linear infinite;
+        }
+        .lds-spinner div:after {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0px;
+          left: 15px;
+          width: 2px;
+          height: 7px;
+          border-radius: 100%;
+          background: #ccc;
+        }
+        .lds-spinner div:nth-child(1) {
+          transform: rotate(0deg);
+          animation-delay: -1.1s;
+        }
+        .lds-spinner div:nth-child(2) {
+          transform: rotate(30deg);
+          animation-delay: -1s;
+        }
+        .lds-spinner div:nth-child(3) {
+          transform: rotate(60deg);
+          animation-delay: -0.9s;
+        }
+        .lds-spinner div:nth-child(4) {
+          transform: rotate(90deg);
+          animation-delay: -0.8s;
+        }
+        .lds-spinner div:nth-child(5) {
+          transform: rotate(120deg);
+          animation-delay: -0.7s;
+        }
+        .lds-spinner div:nth-child(6) {
+          transform: rotate(150deg);
+          animation-delay: -0.6s;
+        }
+        .lds-spinner div:nth-child(7) {
+          transform: rotate(180deg);
+          animation-delay: -0.5s;
+        }
+        .lds-spinner div:nth-child(8) {
+          transform: rotate(210deg);
+          animation-delay: -0.4s;
+        }
+        .lds-spinner div:nth-child(9) {
+          transform: rotate(240deg);
+          animation-delay: -0.3s;
+        }
+        .lds-spinner div:nth-child(10) {
+          transform: rotate(270deg);
+          animation-delay: -0.2s;
+        }
+        .lds-spinner div:nth-child(11) {
+          transform: rotate(300deg);
+          animation-delay: -0.1s;
+        }
+        .lds-spinner div:nth-child(12) {
+          transform: rotate(330deg);
+          animation-delay: 0s;
+        }
+        @keyframes lds-spinner {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+
         .blog-rotating {
         	display: none;
         }
@@ -331,8 +434,142 @@
 			<div class="container">
 				<h2 class="top-title" id="posts-btn">Blog</h2>
 				<div id="blog-rotating" class="blog-rotating lds-css ng-scope"><div style="width:100%;height:100%" class="lds-pacman"><div><div></div><div></div><div></div></div><div><div></div><div></div></div></div>
-				<style type="text/css">@keyframes lds-pacman-1{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@-webkit-keyframes lds-pacman-1{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes lds-pacman-2{0%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%{-webkit-transform:rotate(225deg);transform:rotate(225deg)}100%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}@-webkit-keyframes lds-pacman-2{0%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%{-webkit-transform:rotate(225deg);transform:rotate(225deg)}100%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}@keyframes lds-pacman-3{0%{-webkit-transform:translate(190px,0);transform:translate(190px,0);opacity:0}20%{opacity:1}100%{-webkit-transform:translate(70px,0);transform:translate(70px,0);opacity:1}}@-webkit-keyframes lds-pacman-3{0%{-webkit-transform:translate(190px,0);transform:translate(190px,0);opacity:0}20%{opacity:1}100%{-webkit-transform:translate(70px,0);transform:translate(70px,0);opacity:1}}.lds-pacman{position:relative}.lds-pacman > div:nth-child(2) div{position:absolute;top:40px;left:40px;width:120px;height:60px;border-radius:120px 120px 0 0;background:#e9d40c;-webkit-animation:lds-pacman-1 1s linear infinite;animation:lds-pacman-1 1s linear infinite;-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.lds-pacman > div:nth-child(2) div:nth-child(2){-webkit-animation:lds-pacman-2 1s linear infinite;animation:lds-pacman-2 1s linear infinite}.lds-pacman > div:nth-child(1) div{position:absolute;top:92px;left:-8px;width:16px;height:16px;border-radius:50%;background:#767676;-webkit-animation:lds-pacman-3 1s linear infinite;animation:lds-pacman-3 1s linear infinite}.lds-pacman > div:nth-child(1) div:nth-child(1){-webkit-animation-delay:-.67s;animation-delay:-.67s}.lds-pacman > div:nth-child(1) div:nth-child(2){-webkit-animation-delay:-.33s;animation-delay:-.33s}.lds-pacman > div:nth-child(1) div:nth-child(3){-webkit-animation-delay:0;animation-delay:0}.lds-pacman{width:35px!important;height:35px!important;-webkit-transform:translate(-17.5px,-17.5px) scale(0.175) translate(17.5px,17.5px);transform:translate(-17.5px,-17.5px) scale(0.175) translate(17.5px,17.5px)}</style>
-                </div><!-- /.lds-pacman -->
+				<style type="text/css">@keyframes lds-pacman-1 {
+                    0% {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                      }
+                      50% {
+                        -webkit-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+                      }
+                      100% {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                      }
+                    }
+                    @-webkit-keyframes lds-pacman-1 {
+                      0% {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                      }
+                      50% {
+                        -webkit-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+                      }
+                      100% {
+                        -webkit-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                      }
+                    }
+                    @keyframes lds-pacman-2 {
+                      0% {
+                        -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                      }
+                      50% {
+                        -webkit-transform: rotate(225deg);
+                        transform: rotate(225deg);
+                      }
+                      100% {
+                        -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                      }
+                    }
+                    @-webkit-keyframes lds-pacman-2 {
+                      0% {
+                        -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                      }
+                      50% {
+                        -webkit-transform: rotate(225deg);
+                        transform: rotate(225deg);
+                      }
+                      100% {
+                        -webkit-transform: rotate(180deg);
+                        transform: rotate(180deg);
+                      }
+                    }
+                    @keyframes lds-pacman-3 {
+                      0% {
+                        -webkit-transform: translate(190px, 0);
+                        transform: translate(190px, 0);
+                        opacity: 0;
+                      }
+                      20% {
+                        opacity: 1;
+                      }
+                      100% {
+                        -webkit-transform: translate(70px, 0);
+                        transform: translate(70px, 0);
+                        opacity: 1;
+                      }
+                    }
+                    @-webkit-keyframes lds-pacman-3 {
+                      0% {
+                        -webkit-transform: translate(190px, 0);
+                        transform: translate(190px, 0);
+                        opacity: 0;
+                      }
+                      20% {
+                        opacity: 1;
+                      }
+                      100% {
+                        -webkit-transform: translate(70px, 0);
+                        transform: translate(70px, 0);
+                        opacity: 1;
+                      }
+                    }
+                    .lds-pacman {
+                      position: relative;
+                    }
+                    .lds-pacman > div:nth-child(2) div {
+                      position: absolute;
+                      top: 40px;
+                      left: 40px;
+                      width: 120px;
+                      height: 60px;
+                      border-radius: 120px 120px 0 0;
+                      background: #e9d40c;
+                      -webkit-animation: lds-pacman-1 1s linear infinite;
+                      animation: lds-pacman-1 1s linear infinite;
+                      -webkit-transform-origin: 60px 60px;
+                      transform-origin: 60px 60px;
+                    }
+                    .lds-pacman > div:nth-child(2) div:nth-child(2) {
+                      -webkit-animation: lds-pacman-2 1s linear infinite;
+                      animation: lds-pacman-2 1s linear infinite;
+                    }
+                    .lds-pacman > div:nth-child(1) div {
+                      position: absolute;
+                      top: 92px;
+                      left: -8px;
+                      width: 16px;
+                      height: 16px;
+                      border-radius: 50%;
+                      background: #767676;
+                      -webkit-animation: lds-pacman-3 1s linear infinite;
+                      animation: lds-pacman-3 1s linear infinite;
+                    }
+                    .lds-pacman > div:nth-child(1) div:nth-child(1) {
+                      -webkit-animation-delay: -0.67s;
+                      animation-delay: -0.67s;
+                    }
+                    .lds-pacman > div:nth-child(1) div:nth-child(2) {
+                      -webkit-animation-delay: -0.33s;
+                      animation-delay: -0.33s;
+                    }
+                    .lds-pacman > div:nth-child(1) div:nth-child(3) {
+                      -webkit-animation-delay: 0s;
+                      animation-delay: 0s;
+                    }
+                    .lds-pacman {
+                      width: 35px !important;
+                      height: 35px !important;
+                      -webkit-transform: translate(-17.5px, -17.5px) scale(0.175) translate(17.5px, 17.5px);
+                      transform: translate(-17.5px, -17.5px) scale(0.175) translate(17.5px, 17.5px);
+                    }</style>
+                </div>
 			</div><!-- /.container -->
 		</section><!-- /.link-blog -->
 
@@ -351,6 +588,7 @@
         var body = document.querySelector( 'body' );
         var blog = document.getElementById( 'blog' );
         var blogRotating = document.getElementById( 'blog-rotating' );
+        
    
         if ( postsBtn ) {
        
@@ -404,4 +642,5 @@
     </script>
 
 </body>
+
 </html>
