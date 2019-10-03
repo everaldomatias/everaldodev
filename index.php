@@ -167,8 +167,10 @@
         .blog .top-title,
         .link-blog .top-title {
         	color: #3C1379;
-        	cursor: pointer;
         	margin: 10px 10px 0 0;
+        }
+        .blog h2.top-title {
+            margin-bottom: 30px;
         }
         .blog h1, h2, h3, h4, h5, h6 {
         	color: #AC80EB;
@@ -178,20 +180,43 @@
         	opacity: 1;
         }
         .blog .each-post {
-        	border-bottom: 3px solid #eee;
-        	margin-bottom: 3vw;
-            padding-bottom: 2vw;
+        	background-color: #eee;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 30px;
+            padding: 15px  30px;
+            -webkit-transition: background-color 1s;
+            transition: background-color 1s;
+        }
+        .blog .each-post:hover {
+            background-color: #fbfbfb;
         }
         .blog .each-post figure {
         	margin: 1.5vw 2vw;
+        }
+        .blog .each-post .screen-reader-text {
+            display: none;
         }
         * {
           box-sizing: border-box;
         }
         .blog-rotating {
         	display: none;
+            position: absolute;
+            top: 36px;
         }
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9704918-9"></script>
+	<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-9704918-9');
+	</script>
+
     
 </head>
 
@@ -228,7 +253,7 @@
 
 				<h3>Formação</h3>
 
-				<a href="https://www.uninove.br/graduacao/tecnologia-em-sistemas-para-internet/o-que-e/" target="_blank">Uninove</a>
+				<a href="https://www.uninove.br/graduacao/tecnologia-em-sistemas-para-internet/o-que-e/" target="_blank" rel="noopener">Uninove</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2017/2019
@@ -239,7 +264,7 @@
 
 				<h3>Experiência</h3>
 
-				<a href="https://agpagencia.com.br" target="_blank">AGP Agência</a>
+				<a href="https://agpagencia.com.br" target="_blank" rel="noopener">AGP Agência</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2015/atual
@@ -257,7 +282,7 @@
 				</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://www.bloglite.net/blog/" target="_blank">Bloglite</a>
+				<a href="https://www.bloglite.net/blog/" target="_blank" rel="noopener">Bloglite</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2014/2015
@@ -266,7 +291,7 @@
 				</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://brasa.art.br" target="_blank">Brasa Design</a>
+				<a href="https://brasa.art.br" target="_blank" rel="noopener">Brasa Design</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2009/atual
@@ -275,7 +300,7 @@
 				</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="http://www.racine.com.br/" target="_blank">Instituto Racine</a>
+				<a href="http://www.racine.com.br/" target="_blank" rel="noopener">Instituto Racine</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2007/2009
@@ -286,39 +311,39 @@
 
 				<h3>Ações Voluntárias</h3>
 
-				<a href="https://profiles.wordpress.org/everaldomatias" target="_blank">Comunidade WordPress</a>
+				<a href="https://profiles.wordpress.org/everaldomatias" target="_blank" rel="noopener">Comunidade WordPress</a>
 				<span class="abre-codigo">{</span>
 				<p>Contribuo com a comunidade WordPress desde Março de 2010, auxiliando no Fórum Brasileiro, traduzindo temas, plugins e o próprio Core do WordPress.</p>
 				<span class="fecha-codigo">}</span>
 				
-				<a href="https://wordpress.org/plugins/open-whatsapp-chat/" target="_blank">Open WhatsApp Chat</a>
+				<a href="https://wordpress.org/plugins/open-whatsapp-chat/" target="_blank" rel="noopener">Open WhatsApp Chat (Descontinuado)</a>
 				<span class="abre-codigo">{</span>
 				<p>Plugin WordPress para adicionar de forma simples o WhatsApp Chat ao seu site. Criado e disponibilizado de forma gratuita no repositório oficial de plugins do WordPress.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="http://tema.coletivowp.com.br/" target="_blank">Tema Coletivo</a>
+				<a href="http://tema.coletivowp.com.br/" target="_blank" rel="noopener">Tema Coletivo</a>
 				<span class="abre-codigo">{</span>
 				<p>Ocasionalmente participo do desenvolvimento e evolução do <b>Tema Coletivo</b>. Um tema WordPress desenvolvido com o objetivo de facilitar a implementação de sites por designers e até mesmo usuários finais.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://gitlab.com/everaldomatias/tim-maia" target="_blank">Tim Maia</a>
+				<a href="https://gitlab.com/everaldomatias/tim-maia" target="_blank" rel="noopener">Tim Maia</a>
 				<span class="abre-codigo">{</span>
 				<p>Tema WordPress que criei com foco em <i>mini-sites</i> e que está disponível gratuitamente no Gitlab.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://caminhodobem11.com/" target="_blank">Caminho do Bem 11 (Descontinuado)</a>
+				<a href="https://caminhodobem11.com/" target="_blank" rel="noopener">Caminho do Bem 11 (Descontinuado)</a>
 				<span class="abre-codigo">{</span>
 				<p>Criei o site do <b>Caminho do Bem 11</b> como minha contribuição para a causa. <b>O Caminho do Bem 11</b> é uma ação social em benefícios de comunidades, ONGs, abrigos, asilos, orfanatos e das pessoas em situação de rua.</p>
 				<span class="fecha-codigo">}</span>
 
 				<h3>Contatos</h3>
 
-				<a href="tel:+5511947910004" target="_blank">Celular/WhatsApp/Telegram</a>
+				<a href="tel:+5511947910004" target="_blank" rel="noopener">Celular/WhatsApp/Telegram</a>
 				<span class="abre-codigo">{</span>
 				<p>+55 11 9 4791 0004</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="mailto:aoseudispor@everaldo.dev" target="_blank">E-mail</a>
+				<a href="mailto:aoseudispor@everaldo.dev" target="_blank" rel="noopener">E-mail</a>
 				<span class="abre-codigo">{</span>
 				<p>aoseudispor@everaldo.dev</p>
 				<span class="fecha-codigo">}</span>
@@ -327,18 +352,13 @@
 			
 		</div><!-- /.dev -->
 
-		<section class="link-blog">
-			<div class="container">
-				<h2 class="top-title" id="posts-btn">Blog</h2>
-				<div id="blog-rotating" class="blog-rotating lds-css ng-scope"><div style="width:100%;height:100%" class="lds-pacman"><div><div></div><div></div><div></div></div><div><div></div><div></div></div></div>
-				<style type="text/css">@keyframes lds-pacman-1{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@-webkit-keyframes lds-pacman-1{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes lds-pacman-2{0%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%{-webkit-transform:rotate(225deg);transform:rotate(225deg)}100%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}@-webkit-keyframes lds-pacman-2{0%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%{-webkit-transform:rotate(225deg);transform:rotate(225deg)}100%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}@keyframes lds-pacman-3{0%{-webkit-transform:translate(190px,0);transform:translate(190px,0);opacity:0}20%{opacity:1}100%{-webkit-transform:translate(70px,0);transform:translate(70px,0);opacity:1}}@-webkit-keyframes lds-pacman-3{0%{-webkit-transform:translate(190px,0);transform:translate(190px,0);opacity:0}20%{opacity:1}100%{-webkit-transform:translate(70px,0);transform:translate(70px,0);opacity:1}}.lds-pacman{position:relative}.lds-pacman > div:nth-child(2) div{position:absolute;top:40px;left:40px;width:120px;height:60px;border-radius:120px 120px 0 0;background:#e9d40c;-webkit-animation:lds-pacman-1 1s linear infinite;animation:lds-pacman-1 1s linear infinite;-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.lds-pacman > div:nth-child(2) div:nth-child(2){-webkit-animation:lds-pacman-2 1s linear infinite;animation:lds-pacman-2 1s linear infinite}.lds-pacman > div:nth-child(1) div{position:absolute;top:92px;left:-8px;width:16px;height:16px;border-radius:50%;background:#767676;-webkit-animation:lds-pacman-3 1s linear infinite;animation:lds-pacman-3 1s linear infinite}.lds-pacman > div:nth-child(1) div:nth-child(1){-webkit-animation-delay:-.67s;animation-delay:-.67s}.lds-pacman > div:nth-child(1) div:nth-child(2){-webkit-animation-delay:-.33s;animation-delay:-.33s}.lds-pacman > div:nth-child(1) div:nth-child(3){-webkit-animation-delay:0;animation-delay:0}.lds-pacman{width:35px!important;height:35px!important;-webkit-transform:translate(-17.5px,-17.5px) scale(0.175) translate(17.5px,17.5px);transform:translate(-17.5px,-17.5px) scale(0.175) translate(17.5px,17.5px)}</style>
-                </div><!-- /.lds-pacman -->
-			</div><!-- /.container -->
-		</section><!-- /.link-blog -->
-
 		<section class="blog" id="blog">
 			<div class="container">
-				<h2 class="top-title">Blog</h2>
+				<h2 class="top-title">Blog
+                <div id="blog-rotating" class="blog-rotating lds-css ng-scope"><div style="width:100%;height:100%" class="lds-pacman"><div><div></div><div></div><div></div></div><div><div></div><div></div></div></div>
+				<style type="text/css">@keyframes lds-pacman-1{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@-webkit-keyframes lds-pacman-1{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes lds-pacman-2{0%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%{-webkit-transform:rotate(225deg);transform:rotate(225deg)}100%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}@-webkit-keyframes lds-pacman-2{0%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%{-webkit-transform:rotate(225deg);transform:rotate(225deg)}100%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}}@keyframes lds-pacman-3{0%{-webkit-transform:translate(190px,0);transform:translate(190px,0);opacity:0}20%{opacity:1}100%{-webkit-transform:translate(70px,0);transform:translate(70px,0);opacity:1}}@-webkit-keyframes lds-pacman-3{0%{-webkit-transform:translate(190px,0);transform:translate(190px,0);opacity:0}20%{opacity:1}100%{-webkit-transform:translate(70px,0);transform:translate(70px,0);opacity:1}}.lds-pacman{position:relative}.lds-pacman > div:nth-child(2) div{position:absolute;top:40px;left:40px;width:120px;height:60px;border-radius:120px 120px 0 0;background:#e9d40c;-webkit-animation:lds-pacman-1 1s linear infinite;animation:lds-pacman-1 1s linear infinite;-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.lds-pacman > div:nth-child(2) div:nth-child(2){-webkit-animation:lds-pacman-2 1s linear infinite;animation:lds-pacman-2 1s linear infinite}.lds-pacman > div:nth-child(1) div{position:absolute;top:92px;left:-8px;width:16px;height:16px;border-radius:50%;background:#767676;-webkit-animation:lds-pacman-3 1s linear infinite;animation:lds-pacman-3 1s linear infinite}.lds-pacman > div:nth-child(1) div:nth-child(1){-webkit-animation-delay:-.67s;animation-delay:-.67s}.lds-pacman > div:nth-child(1) div:nth-child(2){-webkit-animation-delay:-.33s;animation-delay:-.33s}.lds-pacman > div:nth-child(1) div:nth-child(3){-webkit-animation-delay:0;animation-delay:0}.lds-pacman{width:35px!important;height:35px!important;-webkit-transform:translate(-17.5px,-17.5px) scale(0.175) translate(17.5px,17.5px);transform:translate(-17.5px,-17.5px) scale(0.175) translate(17.5px,17.5px)}</style>
+                </div><!-- /.lds-pacman -->
+                </h2>
 				<div id="posts-container"></div>
 			</div><!-- /.container -->
 		</section><!-- /.blog -->
@@ -346,55 +366,44 @@
 	</main><!-- /.wrap -->
 	
 	<script>
-        var postsBtn = document.getElementById( 'posts-btn' );
         var postsContainer = document.getElementById( 'posts-container' );
-        var body = document.querySelector( 'body' );
-        var blog = document.getElementById( 'blog' );
         var blogRotating = document.getElementById( 'blog-rotating' );
-   
-        if ( postsBtn ) {
-       
-            postsBtn.addEventListener( 'click', function(){
-        
-        		var ourRequest = new XMLHttpRequest();
-        		
-        		blogRotating.style.display = 'inline-block';
-        		
-                ourRequest.open( 'GET', 'https://everaldo.dev/wp/wp-json/wp/v2/posts?order=desc' );
-                ourRequest.onload = function() {
-                    if ( ourRequest.status >= 200 && ourRequest.status < 400 ) {
-        				var data = JSON.parse( ourRequest.responseText );
-        				//console.log(data)
-        				createHTML( data );
-        				runCSS();
-                    } else {
-                        console.log( 'We connected to the server, but it returned an error.' );
-                    }
-                };
-        
-                ourRequest.onerror = function() {
-                    console.log( 'Connection error' );
+          
+        window.addEventListener( 'load', function(){
+    
+            var ourRequest = new XMLHttpRequest();
+            
+            blogRotating.style.display = 'inline-block';
+            
+            ourRequest.open( 'GET', 'https://everaldo.dev/wp/wp-json/wp/v2/posts?order=desc' );
+            ourRequest.onload = function() {
+                if ( ourRequest.status >= 200 && ourRequest.status < 400 ) {
+                    var data = JSON.parse( ourRequest.responseText );
+                    //console.log(data);
+                    createHTML( data );
+                    blogRotating.style.display = 'none';
+                } else {
+                    console.log( 'We connected to the server, but it returned an error.' );
                 }
-        
-        		ourRequest.send();
-        
-            });
-        }
-        function runCSS() {
-        	setTimeout( function(){
-        		body.classList.add( 'show-blog' );
-        	  	blog.scrollIntoView({
-        			block:    'start'
-        	   });
-        	}, 200 );
-        }
+            };
+    
+            ourRequest.onerror = function() {
+                console.log( 'Connection error' );
+            }
+    
+            ourRequest.send();
+    
+        });
         function createHTML( postsData ) {
             var ourHTMLString = '';
             
             for( var i = 0; i < postsData.length; i++ ) {
+                
         		ourHTMLString += '<div class="each-post">';
+                ourHTMLString += '<a href="' + postsData[i].link + '">';
                 ourHTMLString += '<h2>' + postsData[i].title.rendered + '</h2>';
-        		ourHTMLString += postsData[i].content.rendered;
+                ourHTMLString += '</a>';
+        		ourHTMLString += postsData[i].excerpt.rendered;
         		ourHTMLString += '</div><!-- /.each-post -->';
             }
         
