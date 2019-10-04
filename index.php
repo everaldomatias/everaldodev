@@ -376,7 +376,7 @@
             
             blogRotating.style.display = 'inline-block';
             
-            ourRequest.open( 'GET', 'https://everaldo.dev/wp/wp-json/wp/v2/posts?order=desc' );
+            ourRequest.open( 'GET', 'https://everaldo.dev/wp-json/wp/v2/posts?order=desc' );
             ourRequest.onload = function() {
                 if ( ourRequest.status >= 200 && ourRequest.status < 400 ) {
                     var data = JSON.parse( ourRequest.responseText );
