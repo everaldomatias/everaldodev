@@ -27,6 +27,8 @@
     <meta name="twitter:title" content="Everaldo.Dev">
     <meta name="twitter:description" content="Everaldo Matias, desenvolvedor dedicado a criação, manutenção e suporte de sites e lojas virtuais com WordPress.">
     <meta name="twitter:image" content="">
+
+	<link rel="alternate" href="https://everaldo.dev/" hreflang="pt-br">
     
     <style>
         html {
@@ -216,7 +218,6 @@
 
         gtag('config', 'UA-9704918-9');
 	</script>
-
     
 </head>
 
@@ -234,7 +235,7 @@
 					<p itemprop="knowsAbout">Desenvolvimento, manutenção e suporte para sites e lojas virtuais (e-commerce) em WordPress desde 2009.</p>
 				</section>
 
-				<section itemscope itemtype="http://schema.org/hasOccupation">
+				<section itemscope itemtype="http://schema.org/skills">
 					<h3>Skills</h3>
 					<span class="abre-codigo">{</span>
 					<p>
@@ -253,7 +254,7 @@
 
 				<h3>Formação</h3>
 
-				<a href="https://www.uninove.br/graduacao/tecnologia-em-sistemas-para-internet/o-que-e/" target="_blank" rel="noopener">Uninove</a>
+				<a href="https://www.uninove.br/graduacao/tecnologia-em-sistemas-para-internet/o-que-e/" target="_blank" hreflang="pt-br" rel="noopener">Uninove</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2017/2019
@@ -264,7 +265,7 @@
 
 				<h3>Experiência</h3>
 
-				<a href="https://agpagencia.com.br" target="_blank" rel="noopener">AGP Agência</a>
+				<a href="https://agpagencia.com.br" target="_blank" hreflang="pt-br" rel="noopener">AGP Agência</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2015/atual
@@ -273,7 +274,7 @@
 				</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="">Junto Propaganda</a>
+				<a href="https://junto.com.br/" target="_blank" hreflang="pt-br" rel="noopener">Junto Propaganda</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2015/2015
@@ -282,7 +283,7 @@
 				</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://www.bloglite.net/blog/" target="_blank" rel="noopener">Bloglite</a>
+				<a href="https://www.bloglite.net/blog/" target="_blank" hreflang="pt-br" rel="noopener">Bloglite</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2014/2015
@@ -291,7 +292,7 @@
 				</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://brasa.art.br" target="_blank" rel="noopener">Brasa Design</a>
+				<a href="https://brasa.art.br" target="_blank" hreflang="pt-br" rel="noopener">Brasa Design</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2009/atual
@@ -300,7 +301,7 @@
 				</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="http://www.racine.com.br/" target="_blank" rel="noopener">Instituto Racine</a>
+				<a href="http://www.racine.com.br/" target="_blank" hreflang="pt-br" rel="noopener">Instituto Racine</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2007/2009
@@ -311,39 +312,39 @@
 
 				<h3>Ações Voluntárias</h3>
 
-				<a href="https://profiles.wordpress.org/everaldomatias" target="_blank" rel="noopener">Comunidade WordPress</a>
+				<a href="https://profiles.wordpress.org/everaldomatias" target="_blank" hreflang="en rel="noopener">Comunidade WordPress</a>
 				<span class="abre-codigo">{</span>
 				<p>Contribuo com a comunidade WordPress desde Março de 2010, auxiliando no Fórum Brasileiro, traduzindo temas, plugins e o próprio Core do WordPress.</p>
 				<span class="fecha-codigo">}</span>
 				
-				<a href="https://wordpress.org/plugins/open-whatsapp-chat/" target="_blank" rel="noopener">Open WhatsApp Chat (Descontinuado)</a>
+				<a href="https://wordpress.org/plugins/open-whatsapp-chat/" target="_blank" hreflang="en" rel="noopener">Open WhatsApp Chat (Descontinuado)</a>
 				<span class="abre-codigo">{</span>
 				<p>Plugin WordPress para adicionar de forma simples o WhatsApp Chat ao seu site. Criado e disponibilizado de forma gratuita no repositório oficial de plugins do WordPress.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="http://tema.coletivowp.com.br/" target="_blank" rel="noopener">Tema Coletivo</a>
+				<a href="http://tema.coletivowp.com.br/" target="_blank" hreflang="pt-br" rel="noopener">Tema Coletivo</a>
 				<span class="abre-codigo">{</span>
-				<p>Ocasionalmente participo do desenvolvimento e evolução do <b>Tema Coletivo</b>. Um tema WordPress desenvolvido com o objetivo de facilitar a implementação de sites por designers e até mesmo usuários finais.</p>
+				<p>Ocasionalmente participo do desenvolvimento e evolução do <strong>Tema Coletivo</strong>. Um tema WordPress desenvolvido com o objetivo de facilitar a implementação de sites por designers e até mesmo usuários finais.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://gitlab.com/everaldomatias/tim-maia" target="_blank" rel="noopener">Tim Maia</a>
+				<a href="https://gitlab.com/everaldomatias/tim-maia" target="_blank" hreflang="pt-br" rel="noopener">Tim Maia</a>
 				<span class="abre-codigo">{</span>
-				<p>Tema WordPress que criei com foco em <i>mini-sites</i> e que está disponível gratuitamente no Gitlab.</p>
+				<p>Tema WordPress que criei com foco em <em>mini-sites</em> e que está disponível gratuitamente no Gitlab.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://caminhodobem11.com/" target="_blank" rel="noopener">Caminho do Bem 11 (Descontinuado)</a>
+				<a href="https://caminhodobem11.com/" target="_blank" hreflang="pt-br" rel="noopener">Caminho do Bem 11 (Descontinuado)</a>
 				<span class="abre-codigo">{</span>
-				<p>Criei o site do <b>Caminho do Bem 11</b> como minha contribuição para a causa. <b>O Caminho do Bem 11</b> é uma ação social em benefícios de comunidades, ONGs, abrigos, asilos, orfanatos e das pessoas em situação de rua.</p>
+				<p>Criei o site do <strong>Caminho do Bem 11</strong> como minha contribuição para a causa. <strong>O Caminho do Bem 11</strong> é uma ação social em benefícios de comunidades, ONGs, abrigos, asilos, orfanatos e das pessoas em situação de rua.</p>
 				<span class="fecha-codigo">}</span>
 
 				<h3>Contatos</h3>
 
-				<a href="tel:+5511947910004" target="_blank" rel="noopener">Celular/WhatsApp/Telegram</a>
+				<a href="tel:+5511947910004" target="_blank" hreflang="pt-br" rel="noopener">Celular/WhatsApp/Telegram</a>
 				<span class="abre-codigo">{</span>
 				<p>+55 11 9 4791 0004</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="mailto:aoseudispor@everaldo.dev" target="_blank" rel="noopener">E-mail</a>
+				<a href="mailto:aoseudispor@everaldo.dev" target="_blank" hreflang="pt-br" rel="noopener">E-mail</a>
 				<span class="abre-codigo">{</span>
 				<p>aoseudispor@everaldo.dev</p>
 				<span class="fecha-codigo">}</span>
@@ -400,7 +401,7 @@
             for( var i = 0; i < postsData.length; i++ ) {
                 
         		ourHTMLString += '<div class="each-post">';
-                ourHTMLString += '<a href="' + postsData[i].link + '">';
+                ourHTMLString += '<a href="' + postsData[i].link + '" hreflang="pt-br">';
                 ourHTMLString += '<h2>' + postsData[i].title.rendered + '</h2>';
                 ourHTMLString += '</a>';
         		ourHTMLString += postsData[i].excerpt.rendered;
