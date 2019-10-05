@@ -13,22 +13,24 @@
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Everaldo.Dev">
     <meta itemprop="description" content="Everaldo Matias, desenvolvedor dedicado a criação, manutenção e suporte de sites e lojas virtuais com WordPress.">
-    <meta itemprop="image" content="">
+    <meta itemprop="image" content="https://everaldo.dev/wp-content/themes/everaldodev/assets/images/everaldo-dev-logo.png">
     
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="http://everaldo.dev/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Everaldo.Dev">
     <meta property="og:description" content="Everaldo Matias, desenvolvedor dedicado a criação, manutenção e suporte de sites e lojas virtuais com WordPress.">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="https://everaldo.dev/wp-content/themes/everaldodev/assets/images/everaldo-dev-logo.png">
     
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Everaldo.Dev">
     <meta name="twitter:description" content="Everaldo Matias, desenvolvedor dedicado a criação, manutenção e suporte de sites e lojas virtuais com WordPress.">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:image" content=" https://everaldo.dev/wp-content/themes/everaldodev/assets/images/everaldo-dev-logo.png">
 
 	<link rel="alternate" href="https://everaldo.dev/" hreflang="pt-br">
+	<link rel="shortcut icon" href="https://everaldo.dev/wp-content/themes/everaldodev/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://everaldo.dev/wp-content/themes/everaldodev/favicon.ico" type="image/x-icon">
     
     <style>
         html {
@@ -140,10 +142,19 @@
         .blog {
         	background-color: #f5f5f5;
         	bottom: 0;
-        	color: #262624;
+			color: #262624;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
         	position: relative;
         	width: 100%;
-        }
+		}
+		.blog h1,
+		.blog h2,
+		.blog h3,
+		.blog h4,
+		.blog h5,
+		.blog h6 {
+			font-weight: normal;
+		}
         .link-blog {
         	background-color: #f5f5f5;
         	bottom: 0;
@@ -312,7 +323,7 @@
 
 				<h3>Ações Voluntárias</h3>
 
-				<a href="https://profiles.wordpress.org/everaldomatias" target="_blank" hreflang="en rel="noopener">Comunidade WordPress</a>
+				<a href="https://profiles.wordpress.org/everaldomatias" target="_blank" hreflang="en" rel="noopener">Comunidade WordPress</a>
 				<span class="abre-codigo">{</span>
 				<p>Contribuo com a comunidade WordPress desde Março de 2010, auxiliando no Fórum Brasileiro, traduzindo temas, plugins e o próprio Core do WordPress.</p>
 				<span class="fecha-codigo">}</span>
