@@ -265,6 +265,15 @@
 
 				<h3>Formação</h3>
 
+				<a href="https://univesp.br/cursos/bacharel-em-ciencia-de-dados" target="_blank" hreflang="pt-br" rel="noopener">Univesp</a>
+				<span class="abre-codigo">{</span>
+				<p>
+					2020/2024
+					<br>
+					Bacharel em Ciência de Dados
+				</p>			
+				<span class="fecha-codigo">}</span>
+				
 				<a href="https://www.uninove.br/graduacao/tecnologia-em-sistemas-para-internet/o-que-e/" target="_blank" hreflang="pt-br" rel="noopener">Uninove</a>
 				<span class="abre-codigo">{</span>
 				<p>
@@ -323,12 +332,12 @@
 
 				<h3>Ações Voluntárias</h3>
 
-				<a href="https://profiles.wordpress.org/everaldomatias" target="_blank" hreflang="en" rel="noopener">Comunidade WordPress</a>
+				<a href="https://profiles.wordpress.org/everaldomatias/" target="_blank" hreflang="en" rel="noopener">Comunidade WordPress</a>
 				<span class="abre-codigo">{</span>
 				<p>Contribuo com a comunidade WordPress desde Março de 2010, auxiliando no Fórum Brasileiro, traduzindo temas, plugins e o próprio Core do WordPress.</p>
 				<span class="fecha-codigo">}</span>
 				
-				<a href="https://wordpress.org/plugins/open-whatsapp-chat/" target="_blank" hreflang="en" rel="noopener">Open WhatsApp Chat (Descontinuado)</a>
+				<a href="#" target="_blank" hreflang="en" rel="noopener">Open WhatsApp Chat (Descontinuado)</a>
 				<span class="abre-codigo">{</span>
 				<p>Plugin WordPress para adicionar de forma simples o WhatsApp Chat ao seu site. Criado e disponibilizado de forma gratuita no repositório oficial de plugins do WordPress.</p>
 				<span class="fecha-codigo">}</span>
@@ -338,12 +347,12 @@
 				<p>Ocasionalmente participo do desenvolvimento e evolução do <strong>Tema Coletivo</strong>. Um tema WordPress desenvolvido com o objetivo de facilitar a implementação de sites por designers e até mesmo usuários finais.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://gitlab.com/everaldomatias/tim-maia" target="_blank" hreflang="pt-br" rel="noopener">Tim Maia</a>
+				<a href="https://github.com/everaldomatias/tim-maia/" target="_blank" hreflang="pt-br" rel="noopener">Tim Maia</a>
 				<span class="abre-codigo">{</span>
-				<p>Tema WordPress que criei com foco em <em>mini-sites</em> e que está disponível gratuitamente no Gitlab.</p>
+				<p>Tema WordPress que criei com foco em <em>mini-sites</em> e que está disponível gratuitamente no Github.</p>
 				<span class="fecha-codigo">}</span>
 
-				<a href="https://caminhodobem11.com/" target="_blank" hreflang="pt-br" rel="noopener">Caminho do Bem 11 (Descontinuado)</a>
+				<a href="#" target="_blank" hreflang="pt-br" rel="noopener">Caminho do Bem 11 (Descontinuado)</a>
 				<span class="abre-codigo">{</span>
 				<p>Criei o site do <strong>Caminho do Bem 11</strong> como minha contribuição para a causa. <strong>O Caminho do Bem 11</strong> é uma ação social em benefícios de comunidades, ONGs, abrigos, asilos, orfanatos e das pessoas em situação de rua.</p>
 				<span class="fecha-codigo">}</span>
