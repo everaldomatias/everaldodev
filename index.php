@@ -323,7 +323,7 @@
 
 				<h3>Ações Voluntárias</h3>
 
-				<a href="https://profiles.wordpress.org/everaldomatias/" target="_blank" hreflang="en" rel="noopener">Comunidade WordPress</a>
+				<a href="https://br.wordpress.org/support/users/everaldomatias/" target="_blank" hreflang="en" rel="noopener">Comunidade WordPress</a>
 				<span class="abre-codigo">{</span>
 				<p>Contribuo com a comunidade WordPress desde Março de 2010, auxiliando no Fórum Brasileiro, traduzindo temas, plugins e o próprio Core do WordPress.</p>
 				<span class="fecha-codigo">}</span>
