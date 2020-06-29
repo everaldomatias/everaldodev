@@ -264,20 +264,11 @@
 				</section>			
 
 				<h3>Formação</h3>
-
-				<a href="https://univesp.br/cursos/bacharel-em-ciencia-de-dados" target="_blank" hreflang="pt-br" rel="noopener">Univesp</a>
-				<span class="abre-codigo">{</span>
-				<p>
-					2020/2024
-					<br>
-					Bacharel em Ciência de Dados
-				</p>			
-				<span class="fecha-codigo">}</span>
 				
 				<a href="https://www.uninove.br/graduacao/tecnologia-em-sistemas-para-internet/o-que-e/" target="_blank" hreflang="pt-br" rel="noopener">Uninove</a>
 				<span class="abre-codigo">{</span>
 				<p>
-					2017/2019
+					2017/2020
 					<br>
 					Tecnologia em Sistemas para Internet
 				</p>			
@@ -315,7 +306,7 @@
 				<a href="https://brasa.art.br" target="_blank" hreflang="pt-br" rel="noopener">Brasa Design</a>
 				<span class="abre-codigo">{</span>
 				<p>
-					2009/atual
+					2009/2020
 					<br>
 					Sócio fundador e desenvolvedor WordPress
 				</p>
