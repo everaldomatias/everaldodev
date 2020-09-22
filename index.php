@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    
+
     <!-- HTML Meta Tags -->
     <title>Everaldo.Dev || Everaldo Matias - Desenvolvedor WordPress e Designer Gráfico/Digital</title>
     <meta name="description" content="Everaldo Matias, desenvolvedor dedicado a criação, manutenção e suporte de sites e lojas virtuais com WordPress.">
-    
+
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="Everaldo.Dev">
     <meta itemprop="description" content="Everaldo Matias, desenvolvedor dedicado a criação, manutenção e suporte de sites e lojas virtuais com WordPress.">
     <meta itemprop="image" content="https://everaldo.dev/wp-content/themes/everaldodev/assets/images/everaldo-dev-logo.png">
-    
+
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="http://everaldo.dev/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Everaldo.Dev">
     <meta property="og:description" content="Everaldo Matias, desenvolvedor dedicado a criação, manutenção e suporte de sites e lojas virtuais com WordPress.">
     <meta property="og:image" content="https://everaldo.dev/wp-content/themes/everaldodev/assets/images/everaldo-dev-logo.png">
-    
+
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Everaldo.Dev">
@@ -31,7 +31,7 @@
 	<link rel="alternate" href="https://everaldo.dev/" hreflang="pt-br">
 	<link rel="shortcut icon" href="https://everaldo.dev/wp-content/themes/everaldodev/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://everaldo.dev/wp-content/themes/everaldodev/favicon.ico" type="image/x-icon">
-    
+
     <style>
         html {
         	scroll-behavior: smooth;
@@ -72,7 +72,7 @@
         }
         .dev a {
         	color: #AC80EB;
-        	font-size: 18px; /* Some tweener fallback that doesn't look awful */ 
+        	font-size: 18px; /* Some tweener fallback that doesn't look awful */
           	font-size: 1.5rem;
           	font-weight: bold;
         	opacity: 0.75;
@@ -229,17 +229,17 @@
 
         gtag('config', 'UA-9704918-9');
 	</script>
-    
+
 </head>
 
 <body class="home home-headless">
 
     <main class="wrap">
-	
+
 		<section class="dev">
 
 			<div class="container">
-			
+
 				<section itemscope itemtype="http://schema.org/Person">
 					<h1 class="top-title"><span itemprop="givenName">Everaldo</span> <span itemprop="familyName">Matias</span></h1>
 					<h2><span itemprop="jobTitle">Desenvolvedor WordPress</span></h2>
@@ -261,17 +261,17 @@
 						<span itemprop="skills" class="skills skills20">SASS</span><br>
 					</p>
 					<span class="fecha-codigo">}</span>
-				</section>			
+				</section>
 
 				<h3>Formação</h3>
-				
+
 				<a href="https://www.uninove.br/graduacao/tecnologia-em-sistemas-para-internet/o-que-e/" target="_blank" hreflang="pt-br" rel="noopener">Uninove</a>
 				<span class="abre-codigo">{</span>
 				<p>
 					2017/2020
 					<br>
 					Tecnologia em Sistemas para Internet
-				</p>			
+				</p>
 				<span class="fecha-codigo">}</span>
 
 				<h3>Experiência</h3>
@@ -279,7 +279,7 @@
 				<a href="https://agpagencia.com.br" target="_blank" hreflang="pt-br" rel="noopener">AGP Agência</a>
 				<span class="abre-codigo">{</span>
 				<p>
-					2015/atual
+					2015/2020 (Agosto)
 					<br>
 					Desenvolvedor WordPress
 				</p>
@@ -327,7 +327,7 @@
 				<span class="abre-codigo">{</span>
 				<p>Contribuo com a comunidade WordPress desde Março de 2010, auxiliando no Fórum Brasileiro, traduzindo temas, plugins e o próprio Core do WordPress.</p>
 				<span class="fecha-codigo">}</span>
-				
+
 				<a href="#" target="_blank" hreflang="en" rel="noopener">Open WhatsApp Chat (Descontinuado)</a>
 				<span class="abre-codigo">{</span>
 				<p>Plugin WordPress para adicionar de forma simples o WhatsApp Chat ao seu site. Criado e disponibilizado de forma gratuita no repositório oficial de plugins do WordPress.</p>
@@ -361,7 +361,7 @@
 				<span class="fecha-codigo">}</span>
 
 			</div><!-- /.container -->
-			
+
 		</div><!-- /.dev -->
 
 		<section class="blog" id="blog">
@@ -376,17 +376,17 @@
 		</section><!-- /.blog -->
 
 	</main><!-- /.wrap -->
-	
+
 	<script>
         var postsContainer = document.getElementById( 'posts-container' );
         var blogRotating = document.getElementById( 'blog-rotating' );
-          
+
         window.addEventListener( 'load', function(){
-    
+
             var ourRequest = new XMLHttpRequest();
-            
+
             blogRotating.style.display = 'inline-block';
-            
+
             ourRequest.open( 'GET', 'https://everaldo.dev/wp-json/wp/v2/posts?order=desc' );
             ourRequest.onload = function() {
                 if ( ourRequest.status >= 200 && ourRequest.status < 400 ) {
@@ -398,19 +398,19 @@
                     console.log( 'We connected to the server, but it returned an error.' );
                 }
             };
-    
+
             ourRequest.onerror = function() {
                 console.log( 'Connection error' );
             }
-    
+
             ourRequest.send();
-    
+
         });
         function createHTML( postsData ) {
             var ourHTMLString = '';
-            
+
             for( var i = 0; i < postsData.length; i++ ) {
-                
+
         		ourHTMLString += '<div class="each-post">';
                 ourHTMLString += '<a href="' + postsData[i].link + '" hreflang="pt-br">';
                 ourHTMLString += '<h2>' + postsData[i].title.rendered + '</h2>';
@@ -418,7 +418,7 @@
         		ourHTMLString += postsData[i].excerpt.rendered;
         		ourHTMLString += '</div><!-- /.each-post -->';
             }
-        
+
             postsContainer.innerHTML = ourHTMLString;
         }
 
