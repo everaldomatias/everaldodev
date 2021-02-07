@@ -276,6 +276,15 @@
 
 				<h3>Experiência</h3>
 
+				<a href="https://hacklab.com.br/" target="_blank" hreflang="pt-br" rel="noopener">Hacklab</a>
+				<span class="abre-codigo">{</span>
+				<p>
+					2020 (Atual)
+					<br>
+					Desenvolvedor WordPress (pleno) e PHP (Junior)
+				</p>
+				<span class="fecha-codigo">}</span>
+
 				<a href="https://agpagencia.com.br" target="_blank" hreflang="pt-br" rel="noopener">AGP Agência</a>
 				<span class="abre-codigo">{</span>
 				<p>
@@ -322,6 +331,11 @@
 				<span class="fecha-codigo">}</span>
 
 				<h3>Ações Voluntárias</h3>
+
+				<a href="https://wp.sampa.br/tag/everaldo-matias/" target="_blank" hreflang="en" rel="noopener">WP Sampa</a>
+				<span class="abre-codigo">{</span>
+				<p>Colunista do blog WP Sampa, onde escrevo sobre desenvolvimento e dicas WordPress.</p>
+				<span class="fecha-codigo">}</span>
 
 				<a href="https://br.wordpress.org/support/users/everaldomatias/" target="_blank" hreflang="en" rel="noopener">Comunidade WordPress</a>
 				<span class="abre-codigo">{</span>
