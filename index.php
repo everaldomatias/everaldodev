@@ -376,7 +376,7 @@
 
 			</div><!-- /.container -->
 
-		</div><!-- /.dev -->
+		</section><!-- /.dev -->
 
 		<section class="blog" id="blog">
 			<div class="container">
